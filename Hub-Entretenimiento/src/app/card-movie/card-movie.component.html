@@ -1,0 +1,12 @@
+<div class="movie-card">
+    <img [src]="movie.image" alt="{{ movie.title }}" class="movie-image">
+    <div class="movie-details">
+        <h2>{{ movie.title }}</h2>
+        <p>{{ movie.description }}</p>
+        <div class="movie-buttons">
+            <button (click)="verPelicula()">Ver</button>
+            <button (click)="anadirAFavoritos()">Añadir a Favoritos</button>
+        </div>
+    </div>
+</div>
+  
